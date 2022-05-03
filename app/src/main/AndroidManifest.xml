@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
         <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
+            android:name=".sign"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".play"
+            android:exported="false" />
+        <activity
+            android:name=".questions"
+            android:exported="false" />
+        <activity
+            android:name=".learn"
+            android:exported="false" />
+        <activity
+            android:name=".ptofil"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
