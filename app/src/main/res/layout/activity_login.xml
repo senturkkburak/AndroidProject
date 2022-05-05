@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.005" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/logout"
         android:layout_width="109dp"
         android:layout_height="49dp"
         android:backgroundTint="@android:color/holo_orange_dark"
@@ -53,7 +53,7 @@
         android:layout_width="409dp"
         android:layout_height="66dp"
         android:ems="10"
-        android:hint="Sign in with e-mail"
+        android:hint="Sign in with username"
         android:inputType="textEmailAddress"
         android:shadowColor="@color/white"
         android:textColor="@color/white"

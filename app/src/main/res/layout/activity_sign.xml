@@ -7,6 +7,7 @@
     android:background="?android:attr/colorPressedHighlight"
     tools:context=".SignUpActivity">
 
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="414dp"
@@ -35,7 +36,7 @@
         app:layout_constraintVertical_bias="0.007" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/logout"
         android:layout_width="109dp"
         android:layout_height="49dp"
         android:backgroundTint="@android:color/holo_orange_dark"
@@ -53,7 +54,7 @@
         android:layout_width="413dp"
         android:layout_height="49dp"
         android:ems="10"
-        android:hint="Enter your e-mail here"
+        android:hint="Enter your username here"
         android:inputType="textEmailAddress"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -62,7 +63,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintVertical_bias="0.366" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -78,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511" />
+        app:layout_constraintVertical_bias="0.437" />
 
     <TextView
         android:id="@+id/textView"
@@ -94,43 +95,11 @@
         app:layout_constraintVertical_bias="0.177" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="412dp"
-        android:layout_height="57dp"
-        android:ems="10"
-        android:hint="Gender"
-        android:inputType="textPersonName"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="412dp"
-        android:layout_height="57dp"
-        android:ems="10"
-        android:hint="Birth Date"
-        android:inputType="textPersonName"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.741" />
-
-    <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="421dp"
         android:layout_height="50dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Full Name"
         android:inputType="textPersonName"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -140,38 +109,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.304" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="421dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:hint="Surname"
-        android:inputType="textPersonName"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="412dp"
-        android:layout_height="46dp"
-        android:ems="10"
-        android:hint="Enter your phone"
-        android:inputType="number"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
 
     <Button
         android:id="@+id/buttonsign2"
