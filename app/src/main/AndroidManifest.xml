@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
         <activity
-            android:name=".welcome"
+            android:name=".login"
             android:exported="false" />
+        <activity android:name=".home"/>
         <activity
             android:name=".sign"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".welcome"
             android:exported="true">
 
             <intent-filter>
