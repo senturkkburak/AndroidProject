@@ -85,11 +85,11 @@
         android:backgroundTint="@android:color/white"
         android:text="👤 Profile"
         android:textColor="@android:color/holo_orange_dark"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.933" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -100,9 +100,10 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245"
+        app:layout_constraintVertical_bias="0.225"
         app:navigationIcon="@android:mipmap/sym_def_app_icon"
         app:popupTheme="@style/Base.CardView" />
 
