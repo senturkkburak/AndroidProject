@@ -17,50 +17,152 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="1.0"
         app:navigationIcon="?attr/actionModeCloseDrawable"
         app:popupTheme="@style/Base.CardView" />
 
     <Button
-        android:id="@+id/btnSignup8"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="🌆 Pıctures"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="508dp" />
-
-    <Button
-        android:id="@+id/btnSignup9"
+        android:id="@+id/btnSignup20"
         android:layout_width="244dp"
         android:layout_height="46dp"
         android:background="#00FFFFFF"
         android:text="🔉 Words"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="557dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup18"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <Button
+        android:id="@+id/btnSignup19"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="🌆 Pıctures"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup15"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <Button
+        android:id="@+id/btnSignup18"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="❌ Multıplıcatıon"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup17"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Button
+        android:id="@+id/btnSignup17"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="⬅️ Dırectıons"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup16"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/btnSignup16"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="🧮 Dıgıts"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup19"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <Button
+        android:id="@+id/btnSignup15"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="📅 Months"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup14"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <Button
+        android:id="@+id/btnSignup14"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="📅 Week Days"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup13"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Button
+        android:id="@+id/btnSignup13"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="🍃 Seasons"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup12"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <Button
+        android:id="@+id/btnSignup12"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:background="#00FFFFFF"
+        android:text="⏰ Clocks"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.038" />
 
     <Button
         android:id="@+id/btnSignup10"
         android:layout_width="342dp"
         android:layout_height="47dp"
         android:background="#00FFFFFF"
-        android:text="Hınt : Lets Take To Attendance"
-        android:textSize="12sp"
+        android:text="HINT: Another Game "
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
-        tools:layout_editor_absoluteX="42dp" />
-
-    <Button
-        android:id="@+id/btnSignup7"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="❌ Multıplıcatıon"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="459dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.973" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -77,7 +179,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="🌞"
@@ -107,151 +209,126 @@
         android:id="@+id/switch1"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="80dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="162dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/switch11"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="140dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="211dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:id="@+id/switch12"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="196dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="260dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch4"
+        android:id="@+id/switch13"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="252dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="309dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch5"
+        android:id="@+id/switch14"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="300dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="358dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch6"
+        android:id="@+id/switch15"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="360dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="407dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch7"
+        android:id="@+id/switch16"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="412dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="456dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch8"
+        android:id="@+id/switch17"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="464dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="505dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <Switch
-        android:id="@+id/switch9"
+        android:id="@+id/switch1"
         android:layout_width="99dp"
         android:layout_height="49dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="21dp"
         android:text="Done"
         android:textColor="@color/white"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="554dp" />
-
-    <Button
-        android:id="@+id/btnSignup"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="⏰ Clocks"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="162dp" />
-
-    <Button
-        android:id="@+id/btnSignup2"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="🍃 Seasons"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="214dp" />
-
-    <Button
-        android:id="@+id/btnSignup3"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="📅 Week Days"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="260dp" />
-
-    <Button
-        android:id="@+id/btnSignup4"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="📅 Months"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="312dp" />
-
-    <Button
-        android:id="@+id/btnSignup5"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="⬅️ Dırectıons"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="410dp" />
-
-    <Button
-        android:id="@+id/btnSignup6"
-        android:layout_width="244dp"
-        android:layout_height="46dp"
-        android:background="#00FFFFFF"
-        android:text="🧮 Dıgıts"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView12"
@@ -260,8 +337,12 @@
         android:text="Let's Learn Together !"
         android:textColor="@color/white"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="103dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.053" />
 
     <Button
         android:id="@+id/button8"
