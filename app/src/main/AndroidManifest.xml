@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidproject">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,23 +12,48 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
         <activity
+            android:name=".digits"
+            android:exported="false" />
+        <activity
+            android:name=".seasonsOne"
+            android:exported="false" />
+        <activity
+            android:name=".clocksSeven"
+            android:exported="false" />
+        <activity
+            android:name=".clocksSix"
+            android:exported="false" />
+        <activity
+            android:name=".clocksFive"
+            android:exported="false" />
+        <activity
+            android:name=".clocksFour"
+            android:exported="false" />
+        <activity
+            android:name=".clocksThree"
+            android:exported="false" />
+        <activity
+            android:name=".activityClocksTwo"
+            android:exported="false" />
+        <activity
+            android:name=".clocksOne"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
-        <activity android:name=".home"/>
+        <activity android:name=".home" />
         <activity
             android:name=".sign"
             android:exported="false" />
         <activity
             android:name=".welcome"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".play"
             android:exported="false" />
@@ -41,9 +68,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
