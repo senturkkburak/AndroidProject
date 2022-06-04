@@ -54,7 +54,7 @@
         android:layout_width="413dp"
         android:layout_height="49dp"
         android:ems="10"
-        android:hint="Enter your username here"
+        android:hint="Enter your e-mail here"
         android:inputType="textEmailAddress"
         android:textColor="@color/white"
         android:textColorHint="@color/white"

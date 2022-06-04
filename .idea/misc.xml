@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_ptofil.xml" value="0.33" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_questions.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_sign.xml" value="0.358695652173913" />
         <entry key="..\:/Users/burak/Documents/GitHub/AndroidProject/app/src/main/res/layout-v24/activity_mainn.xml" value="0.23505434782608695" />
         <entry key="..\:/Users/burak/Documents/GitHub/AndroidProject/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/burak/Documents/GitHub/AndroidProject/app/src/main/res/layout/activity_learn.xml" value="0.17831813576494426" />
