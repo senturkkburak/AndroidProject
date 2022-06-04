@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?android:attr/colorPressedHighlight"
-    tools:context=".LetsLearn">
+    tools:context=".learn">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -35,7 +35,8 @@
         app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.099"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btnSignup20"
@@ -49,7 +50,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup18"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.095"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup19"
@@ -63,7 +65,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup15"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.02"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup18"
@@ -77,7 +80,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup17"
-        app:layout_constraintVertical_bias="0.063" />
+        app:layout_constraintVertical_bias="0.063"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup17"
@@ -91,7 +95,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup16"
-        app:layout_constraintVertical_bias="0.052" />
+        app:layout_constraintVertical_bias="0.052"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup16"
@@ -105,7 +110,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup19"
-        app:layout_constraintVertical_bias="0.031" />
+        app:layout_constraintVertical_bias="0.031"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup15"
@@ -119,7 +125,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup14"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup14"
@@ -133,7 +140,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup13"
-        app:layout_constraintVertical_bias="0.032" />
+        app:layout_constraintVertical_bias="0.032"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup13"
@@ -147,7 +155,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/btnSignup12"
-        app:layout_constraintVertical_bias="0.031" />
+        app:layout_constraintVertical_bias="0.031"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup12"
@@ -161,7 +170,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.038"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnSignup10"
@@ -175,7 +185,8 @@
         app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
-        app:layout_constraintVertical_bias="0.973" />
+        app:layout_constraintVertical_bias="0.973"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
