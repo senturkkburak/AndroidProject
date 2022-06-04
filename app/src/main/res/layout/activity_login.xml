@@ -120,7 +120,8 @@
             android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
-            android:text="Sıgn Up" />
+            android:text="Sıgn Up"
+            tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 
     <Button
