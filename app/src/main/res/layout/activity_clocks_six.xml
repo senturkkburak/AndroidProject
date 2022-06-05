@@ -7,6 +7,62 @@
     android:background="?android:attr/colorPressedHighlight"
     tools:context=".clocksSix">
 
+    <Button
+        android:id="@+id/clockTwentySound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/clockTwentyoneSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.337"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/clockTwentytwoSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.526"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/clockTwentythreeSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.713"
+        tools:ignore="TouchTargetSizeCheck" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="414dp"

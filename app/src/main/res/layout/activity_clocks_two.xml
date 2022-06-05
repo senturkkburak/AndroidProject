@@ -7,6 +7,20 @@
     android:background="?android:attr/colorPressedHighlight"
     tools:context=".activityClocksTwo">
 
+    <Button
+        android:id="@+id/clockFourSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="TouchTargetSizeCheck" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="414dp"
@@ -63,6 +77,48 @@
         app:layout_constraintVertical_bias="0.228"
         app:navigationIcon="?attr/actionModeCloseDrawable"
         app:popupTheme="@style/Base.CardView" />
+
+    <Button
+        android:id="@+id/clockSevenSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.713"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/clockSixSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.526"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/clockFiveSound"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+        android:text="▶"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.337"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/goMenu"
