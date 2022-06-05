@@ -11,7 +11,6 @@
         android:id="@+id/toolbar3"
         android:layout_width="377dp"
         android:layout_height="648dp"
-        android:layout_marginBottom="16dp"
         android:background="?android:attr/colorMultiSelectHighlight"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -20,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.903"
         app:navigationIcon="?attr/actionModeCloseDrawable"
         app:popupTheme="@style/Base.CardView" />
 
@@ -367,7 +366,6 @@
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
         app:layout_constraintTop_toTopOf="@+id/toolbar3"
         app:layout_constraintVertical_bias="0.053" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -63,7 +63,7 @@ public class home extends AppCompatActivity {
 
                 if (userProfile != null){
                     String fullName = userProfile.fullname;
-                    greetingTextView.setText("Welcome "+fullName);
+                    greetingTextView.setText("Welcome, "+fullName);
 
                 }
             }

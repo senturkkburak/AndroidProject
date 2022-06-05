@@ -124,7 +124,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/sound"
+        android:id="@+id/digitSoundButton"
         android:layout_width="100dp"
         android:layout_height="86dp"
         android:text="🔊"
