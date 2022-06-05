@@ -65,17 +65,17 @@
         app:popupTheme="@style/Base.CardView" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/goMenuClock"
         android:layout_width="68dp"
         android:layout_height="58dp"
         android:background="#00FFFFFF"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127"
+        app:layout_constraintVertical_bias="0.101"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
@@ -188,7 +188,7 @@
 
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/backClockSix"
         android:layout_width="45dp"
         android:layout_height="53dp"
         android:text="◀"
@@ -202,7 +202,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/goMenuSevenClock"
         android:layout_width="45dp"
         android:layout_height="53dp"
         android:text="▶"

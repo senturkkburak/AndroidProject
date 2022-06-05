@@ -21,6 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 public class home extends AppCompatActivity {
     private Button signout;
     private  Button profile;
+    private Button learn;
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
@@ -31,6 +32,7 @@ public class home extends AppCompatActivity {
 
         signout = findViewById(R.id.logout);
         profile=findViewById(R.id.button);
+        learn = findViewById(R.id.learn);
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,6 +44,12 @@ public class home extends AppCompatActivity {
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(home.this,welcome.class));
+            }
+        });
+        learn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(home.this,learn.class));
             }
         });
         user = FirebaseAuth.getInstance().getCurrentUser();
