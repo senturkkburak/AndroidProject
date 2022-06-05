@@ -65,7 +65,7 @@
         app:popupTheme="@style/Base.CardView" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/digitsMenu"
         android:layout_width="68dp"
         android:layout_height="58dp"
         android:background="#00FFFFFF"
@@ -80,8 +80,8 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="357dp"
-        android:layout_height="135dp"
+        android:layout_width="355dp"
+        android:layout_height="162dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="87dp"
         android:layout_marginEnd="274dp"
@@ -96,7 +96,7 @@
         app:layout_constraintVertical_bias="0.096" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/digitsBack"
         android:layout_width="45dp"
         android:layout_height="53dp"
         android:text="◀"
@@ -110,7 +110,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/digitsGo"
         android:layout_width="45dp"
         android:layout_height="53dp"
         android:text="▶"
@@ -123,6 +123,19 @@
         app:layout_constraintVertical_bias="0.985"
         tools:ignore="TouchTargetSizeCheck" />
 
+    <Button
+        android:id="@+id/sound"
+        android:layout_width="100dp"
+        android:layout_height="86dp"
+        android:text="🔊"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.567"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
