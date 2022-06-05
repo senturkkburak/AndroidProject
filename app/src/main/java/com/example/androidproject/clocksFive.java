@@ -25,10 +25,12 @@ public class clocksFive extends AppCompatActivity {
         seventeenSound=findViewById(R.id.clockSeventeenSound);
         eighteenSound=findViewById(R.id.clockEighteenSound);
         nineteenSound=findViewById(R.id.clockNineteenSound);
+
         fiveMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(clocksFive.this,learn.class));
+                Intent intent = new Intent(clocksFive.this, learn.class);
+                startActivity(intent);
             }
         });
         backFour.setOnClickListener(new View.OnClickListener() {

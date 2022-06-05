@@ -18,13 +18,14 @@ public class clocksSix extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clocks_six);
 
-        sixMenu = findViewById(R.id.goMenuFive);
-        backFive = findViewById(R.id.backClockFour);
-        goSeven = findViewById(R.id.goClockSix);
+        sixMenu = findViewById(R.id.menuClockSix);
+        backFive = findViewById(R.id.backClockFive);
+        goSeven = findViewById(R.id.goClockSeven);
         twentySound=findViewById(R.id.clockTwentySound);
         twentyoneSound=findViewById(R.id.clockTwentyoneSound);
         twentytwoSound=findViewById(R.id.clockTwentytwoSound);
         twentythreeSound=findViewById(R.id.clockTwentythreeSound);
+
         sixMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
