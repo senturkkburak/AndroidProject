@@ -9,10 +9,10 @@
 
     <Button
         android:id="@+id/clockFourSound"
-        android:layout_width="45dp"
-        android:layout_height="53dp"
-        android:text="▶"
-        android:textSize="24sp"
+        android:layout_width="87dp"
+        android:layout_height="63dp"
+        android:text="🔊"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.831"
@@ -80,10 +80,10 @@
 
     <Button
         android:id="@+id/clockSevenSound"
-        android:layout_width="45dp"
-        android:layout_height="53dp"
-        android:text="▶"
-        android:textSize="24sp"
+        android:layout_width="87dp"
+        android:layout_height="63dp"
+        android:text="🔊"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.831"
@@ -94,10 +94,10 @@
 
     <Button
         android:id="@+id/clockSixSound"
-        android:layout_width="45dp"
-        android:layout_height="53dp"
-        android:text="▶"
-        android:textSize="24sp"
+        android:layout_width="87dp"
+        android:layout_height="63dp"
+        android:text="🔊"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.831"
@@ -108,10 +108,10 @@
 
     <Button
         android:id="@+id/clockFiveSound"
-        android:layout_width="45dp"
-        android:layout_height="53dp"
-        android:text="▶"
-        android:textSize="24sp"
+        android:layout_width="87dp"
+        android:layout_height="63dp"
+        android:text="🔊"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
         app:layout_constraintHorizontal_bias="0.831"
