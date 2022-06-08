@@ -24,21 +24,21 @@ public class multiplication_three extends AppCompatActivity {
         buttonMultiMenuThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_three.this,home.class));
+                startActivity(new Intent(multiplication_three.this, home.class));
             }
         });
 
         buttonGoMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_three.this,home.class));
+                startActivity(new Intent(multiplication_three.this, home.class));
             }
         });
 
         buttonMultiTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_three.this,multiplication_two.class));
+                startActivity(new Intent(multiplication_three.this, multiplication_two.class));
             }
         });
     }

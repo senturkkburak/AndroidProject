@@ -9,13 +9,15 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class welcome extends AppCompatActivity {
+    private Button signup;
+    private Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
-        final Button login = findViewById(R.id.button6);
-        final Button signup = findViewById(R.id.button7);
+        login = findViewById(R.id.button6);
+        signup = findViewById(R.id.button7);
         final Button soundbutton= findViewById(R.id.buttonSound);
 
 

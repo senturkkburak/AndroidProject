@@ -14,6 +14,8 @@ public class learn extends AppCompatActivity {
     private Button backButton;
     private Button digitsButton;
     private Button signout;
+    private Button learnDirections;
+    private Button Multiplication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,8 @@ public class learn extends AppCompatActivity {
         backButton = findViewById(R.id.back);
         digitsButton = findViewById(R.id.digits);
         signout = findViewById(R.id.logout);
+        learnDirections = findViewById(R.id.learnDirections);
+        Multiplication = findViewById(R.id.learnMultiplication);
 
         clockButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +52,20 @@ public class learn extends AppCompatActivity {
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(learn.this,welcome.class));
+            }
+        });
+        learnDirections.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(learn.this,directions.class));
+            }
+        });
+        Multiplication.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(learn.this,multiplication_one.class));
             }
         });
     }

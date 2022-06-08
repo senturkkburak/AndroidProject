@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="@+id/toolbar3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignup18"
+        app:layout_constraintTop_toBottomOf="@+id/learnMultiplication"
         app:layout_constraintVertical_bias="0.095"
         tools:ignore="TouchTargetSizeCheck" />
 
@@ -68,7 +68,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/btnSignup18"
+        android:id="@+id/learnMultiplication"
         android:layout_width="244dp"
         android:layout_height="46dp"
         android:background="#00FFFFFF"
@@ -78,12 +78,12 @@
         app:layout_constraintEnd_toEndOf="@+id/toolbar3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/toolbar3"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignup17"
+        app:layout_constraintTop_toBottomOf="@+id/learnDirections"
         app:layout_constraintVertical_bias="0.063"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/btnSignup17"
+        android:id="@+id/learnDirections"
         android:layout_width="244dp"
         android:layout_height="46dp"
         android:background="#00FFFFFF"
@@ -203,19 +203,6 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="🌞"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.005" />
-
-    <TextView
-        android:id="@+id/textView103"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="🌞"

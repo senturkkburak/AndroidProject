@@ -64,8 +64,8 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="308dp"
-        android:layout_height="46dp"
+        android:layout_width="405dp"
+        android:layout_height="57dp"
         android:ems="10"
         android:hint="Enter your e-mail here"
         android:inputType="textEmailAddress"
@@ -76,12 +76,12 @@
         app:layout_constraintHorizontal_bias="0.621"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="305dp"
-        android:layout_height="47dp"
+        android:layout_width="402dp"
+        android:layout_height="42dp"
         android:ems="10"
         android:hint="Enter your password here"
         android:inputType="textPassword"
@@ -92,7 +92,7 @@
         app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425"
+        app:layout_constraintVertical_bias="0.473"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -110,8 +110,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="310dp"
-        android:layout_height="42dp"
+        android:layout_width="404dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
