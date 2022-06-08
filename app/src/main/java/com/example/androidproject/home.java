@@ -22,9 +22,11 @@ public class home extends AppCompatActivity {
     private Button signout;
     private  Button profile;
     private Button learn;
+    private Button play;
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,7 @@ public class home extends AppCompatActivity {
         signout = findViewById(R.id.logout);
         profile=findViewById(R.id.button);
         learn = findViewById(R.id.learn);
+        play = findViewById(R.id.buttonPlay);
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,6 +53,12 @@ public class home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(home.this,learn.class));
+            }
+        });
+        play.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(home.this,play.class));
             }
         });
         user = FirebaseAuth.getInstance().getCurrentUser();

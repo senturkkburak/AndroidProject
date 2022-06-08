@@ -35,12 +35,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.007" />
 
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌞"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
     <Button
-        android:id="@+id/logout"
+        android:id="@+id/welcome"
         android:layout_width="109dp"
         android:layout_height="49dp"
         android:backgroundTint="@android:color/holo_orange_dark"
-        android:text="Log In"
+        android:text="Welcome"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,8 +64,8 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="413dp"
-        android:layout_height="49dp"
+        android:layout_width="308dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:hint="Enter your e-mail here"
         android:inputType="textEmailAddress"
@@ -60,14 +73,14 @@
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.621"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.366" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="411dp"
+        android:layout_width="305dp"
         android:layout_height="47dp"
         android:ems="10"
         android:hint="Enter your password here"
@@ -76,10 +89,10 @@
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437"
+        app:layout_constraintVertical_bias="0.425"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -97,8 +110,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="421dp"
-        android:layout_height="50dp"
+        android:layout_width="310dp"
+        android:layout_height="42dp"
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
@@ -106,10 +119,10 @@
         android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.295" />
 
     <Button
         android:id="@+id/buttonsign2"
@@ -126,6 +139,19 @@
 
     <TextView
         android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🐝"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/textView112"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="🐝"

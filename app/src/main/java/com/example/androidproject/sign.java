@@ -27,6 +27,8 @@ public class sign extends AppCompatActivity {
     private EditText fullname;
     private EditText mail;
     private EditText password;
+    private Button welcome;
+
 
 
     @Override
@@ -36,10 +38,17 @@ public class sign extends AppCompatActivity {
         fullname = findViewById(R.id.editTextTextPersonName3);
         mail = findViewById(R.id.editTextTextEmailAddress2);
         password = findViewById(R.id.editTextTextPassword2);
+        welcome = findViewById(R.id.welcome);
 
         final Button loginBtn = findViewById(R.id.logout);
         final Button register = findViewById(R.id.buttonsign2);
 
+        welcome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(sign.this, welcome.class));
+            }
+        });
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override

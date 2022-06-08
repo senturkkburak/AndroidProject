@@ -34,19 +34,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005" />
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="109dp"
-        android:layout_height="49dp"
-        android:backgroundTint="@android:color/holo_orange_dark"
-        android:text="Log Out"
-        android:textColor="@color/white"
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌞"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.005" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -80,6 +79,23 @@
 
     <TextView
         android:id="@+id/textView19"
+        android:layout_width="355dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="513dp"
+        android:text="0️⃣ 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ "
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="@+id/toolbar2"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/textView98"
         android:layout_width="355dp"
         android:layout_height="162dp"
         android:layout_marginStart="40dp"

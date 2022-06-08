@@ -23,25 +23,44 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class login extends AppCompatActivity {
-
     private FirebaseAuth mAuth;
     private EditText mail;
     private EditText password;
+    private Button welcome;
+    private Button sign;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        welcome = findViewById(R.id.welcome);
         mail = findViewById(R.id.editTextTextEmailAddress);
         password = findViewById(R.id.editTextTextPassword);
+        sign = findViewById(R.id.btnSignup);
         final Button loginBtn = findViewById(R.id.button2);
         final Button register = findViewById(R.id.btnSignup);
+
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mAuth = FirebaseAuth.getInstance();
                 userLogin();
+            }
+        });
+
+        welcome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(login.this, welcome.class));
+            }
+        });
+
+        sign.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(login.this, sign.class));
             }
         });
 

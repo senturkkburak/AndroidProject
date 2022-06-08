@@ -23,12 +23,15 @@ public class ptofil extends AppCompatActivity {
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
+    private Button profilGoMenu;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ptofil);
 
         signout = findViewById(R.id.logout);
+        profilGoMenu = findViewById(R.id.profilGoMenu);
 
         signout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +63,13 @@ public class ptofil extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
                 Toast.makeText(ptofil.this, "Something is wrong", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        profilGoMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ptofil.this,home.class));
             }
         });
     }

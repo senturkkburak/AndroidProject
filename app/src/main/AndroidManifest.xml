@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
         <activity
+            android:name=".multiplication_three"
+            android:exported="false" />
+        <activity
+            android:name=".multiplication_two"
+            android:exported="false" />
+        <activity
+            android:name=".multiplication_one"
+            android:exported="false" />
+        <activity
             android:name=".directions"
             android:exported="false" />
         <activity
