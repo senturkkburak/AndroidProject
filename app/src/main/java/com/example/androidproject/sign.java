@@ -40,7 +40,6 @@ public class sign extends AppCompatActivity {
         password = findViewById(R.id.editTextTextPassword2);
         welcome = findViewById(R.id.welcome);
 
-        final Button loginBtn = findViewById(R.id.logout);
         final Button register = findViewById(R.id.buttonsign2);
 
         welcome.setOnClickListener(new View.OnClickListener() {
@@ -59,12 +58,6 @@ public class sign extends AppCompatActivity {
             }
         });
 
-        loginBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
 
     }
 

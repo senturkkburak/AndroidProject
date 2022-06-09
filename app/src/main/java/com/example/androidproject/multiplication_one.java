@@ -24,13 +24,13 @@ public class multiplication_one extends AppCompatActivity {
         buttonMenuMultiOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_one.this,home.class));
+                startActivity(new Intent(multiplication_one.this,learn.class));
             }
         });
         buttonMultiBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_one.this,home.class));
+                startActivity(new Intent(multiplication_one.this,learn.class));
             }
         });
         buttonMultiGo.setOnClickListener(new View.OnClickListener() {

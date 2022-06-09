@@ -24,7 +24,7 @@ public class multiplication_two extends AppCompatActivity {
         buttonMultiMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_two.this,home.class));
+                startActivity(new Intent(multiplication_two.this,learn.class));
             }
         });
 

@@ -24,14 +24,14 @@ public class multiplication_three extends AppCompatActivity {
         buttonMultiMenuThree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_three.this, home.class));
+                startActivity(new Intent(multiplication_three.this, learn.class));
             }
         });
 
         buttonGoMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(multiplication_three.this, home.class));
+                startActivity(new Intent(multiplication_three.this, learn.class));
             }
         });
 
