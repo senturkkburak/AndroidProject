@@ -16,6 +16,7 @@ public class learn extends AppCompatActivity {
     private Button signout;
     private Button learnDirections;
     private Button Multiplication;
+    private Button Seasons;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class learn extends AppCompatActivity {
         signout = findViewById(R.id.logout);
         learnDirections = findViewById(R.id.learnDirections);
         Multiplication = findViewById(R.id.learnMultiplication);
+        Seasons = findViewById(R.id.btnSignup13);
 
         clockButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,15 +59,19 @@ public class learn extends AppCompatActivity {
         learnDirections.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(learn.this,directions.class));
             }
         });
         Multiplication.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(learn.this,multiplication_one.class));
+            }
+        });
+        Seasons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(learn.this,seasonsOne.class));
             }
         });
     }
