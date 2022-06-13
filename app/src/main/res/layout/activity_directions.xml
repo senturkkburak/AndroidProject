@@ -120,62 +120,6 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/digitSoundButton6"
-        android:layout_width="64dp"
-        android:layout_height="54dp"
-        android:text="🔊"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.659"
-        app:layout_constraintStart_toStartOf="@+id/toolbar2"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.525"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/digitSoundButton7"
-        android:layout_width="64dp"
-        android:layout_height="54dp"
-        android:text="🔊"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.659"
-        app:layout_constraintStart_toStartOf="@+id/toolbar2"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.633"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/digitSoundButton8"
-        android:layout_width="64dp"
-        android:layout_height="54dp"
-        android:text="🔊"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.659"
-        app:layout_constraintStart_toStartOf="@+id/toolbar2"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.745"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/digitSoundButton9"
-        android:layout_width="64dp"
-        android:layout_height="54dp"
-        android:text="🔊"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
-        app:layout_constraintHorizontal_bias="0.659"
-        app:layout_constraintStart_toStartOf="@+id/toolbar2"
-        app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.84"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Button
         android:id="@+id/directionsMenu"
         android:layout_width="68dp"
         android:layout_height="58dp"
@@ -221,7 +165,7 @@
         android:id="@+id/textView24"
         android:layout_width="59dp"
         android:layout_height="458dp"
-        android:text="⬆️⬇️⬅️➡️↗️↖️↘️↙️"
+        android:text="⬆️⬇️⬅️➡️"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"
@@ -234,7 +178,7 @@
         android:id="@+id/textView100"
         android:layout_width="59dp"
         android:layout_height="458dp"
-        android:text="⬆️⬇️⬅️➡️↗️↖️↘️↙️"
+        android:text="⬆️⬇️⬅️➡️"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="@+id/toolbar2"

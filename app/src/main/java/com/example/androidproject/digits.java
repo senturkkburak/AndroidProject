@@ -44,7 +44,7 @@ public class digits extends AppCompatActivity {
         digitSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(digits.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(digits.this,R.raw.alldigits);
                 mediaPlayer.start();
             }
         });

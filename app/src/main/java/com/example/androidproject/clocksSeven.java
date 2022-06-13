@@ -47,28 +47,28 @@ public class clocksSeven extends AppCompatActivity {
         pastQuarterSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.quarter);
                 mediaPlayer.start();
             }
         });
         halfSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.half);
                 mediaPlayer.start();
             }
         });
         toQuarterSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.quarterto);
                 mediaPlayer.start();
             }
         });
         oclockSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(clocksSeven.this,R.raw.twelvenight);
                 mediaPlayer.start();
             }
         });

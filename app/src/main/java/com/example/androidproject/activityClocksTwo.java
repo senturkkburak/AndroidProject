@@ -48,28 +48,28 @@ public class activityClocksTwo extends AppCompatActivity {
         fourSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.fouroclock);
                 mediaPlayer.start();
             }
         });
         fiveSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.fiveoclock);
                 mediaPlayer.start();
             }
         });
         sixSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.sixoclock);
                 mediaPlayer.start();
             }
         });
         sevenSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.zyzz);
+                final MediaPlayer mediaPlayer = MediaPlayer.create(activityClocksTwo.this,R.raw.sevenoclock);
                 mediaPlayer.start();
             }
         });
