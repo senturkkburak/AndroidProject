@@ -12,6 +12,57 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
         <activity
+            android:name=".multiplicationQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".multiplicationQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".directionsQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".directionsQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".digitQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".digitQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".digitQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".monthsJune"
+            android:exported="false" />
+        <activity
+            android:name=".monthsJanuary"
+            android:exported="false" />
+        <activity
+            android:name=".weekdays_monday"
+            android:exported="false" />
+        <activity
+            android:name=".weekdaysFriday"
+            android:exported="false" />
+        <activity
+            android:name=".seasonsQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".seasonsQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".seasonsQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".clockQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".clockQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".clockQuestionOne"
+            android:exported="false" />
+        <activity
             android:name=".seasons_two"
             android:exported="false" />
         <activity

@@ -26,42 +26,42 @@
         android:layout_width="280dp"
         android:layout_height="61dp"
         android:backgroundTint="@android:color/holo_orange_dark"
-        android:text="Answer 1"
+        android:text="00 : 15"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintVertical_bias="0.121" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="280dp"
         android:layout_height="61dp"
         android:backgroundTint="@android:color/holo_orange_dark"
-        android:text="Answer 2"
+        android:text="17:00"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.039" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="280dp"
         android:layout_height="61dp"
         android:backgroundTint="@android:color/holo_orange_dark"
-        android:text="Answer 3"
+        android:text="14:30"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.094" />
 
     <Button
         android:id="@+id/button14"
@@ -93,18 +93,18 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="286dp"
-        android:layout_height="122dp"
-        android:text="Question: "
+        android:layout_width="190dp"
+        android:layout_height="205dp"
+        android:text="🕒"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="154sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:id="@+id/textView17"
