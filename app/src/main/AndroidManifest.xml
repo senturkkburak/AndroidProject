@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
         <activity
+            android:name=".seasons_two"
+            android:exported="false" />
+        <activity
+            android:name=".months"
+            android:exported="false" />
+        <activity
+            android:name=".weekdays"
+            android:exported="false" />
+        <activity
             android:name=".multiplication_three"
             android:exported="false" />
         <activity
