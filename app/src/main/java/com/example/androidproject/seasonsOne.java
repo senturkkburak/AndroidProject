@@ -63,7 +63,7 @@ private Button seasonOneGo;
             @Override
             public void onClick(View view) {
 
-
+                startActivity(new Intent(seasonsOne.this,seasons_two.class));
             }
         });
 

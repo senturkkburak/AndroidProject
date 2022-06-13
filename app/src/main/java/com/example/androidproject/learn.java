@@ -17,6 +17,8 @@ public class learn extends AppCompatActivity {
     private Button learnDirections;
     private Button Multiplication;
     private Button Seasons;
+    private Button Weekdays;
+    private Button Months;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,8 @@ public class learn extends AppCompatActivity {
         learnDirections = findViewById(R.id.learnDirections);
         Multiplication = findViewById(R.id.learnMultiplication);
         Seasons = findViewById(R.id.btnSignup13);
+        Weekdays = findViewById(R.id.btnSignup14);
+        Months = findViewById(R.id.btnSignup15);
 
         clockButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +76,18 @@ public class learn extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(learn.this,seasonsOne.class));
+            }
+        });
+        Weekdays.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(learn.this,weekdays.class));
+            }
+        });
+        Months.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(learn.this,months.class));
             }
         });
     }
