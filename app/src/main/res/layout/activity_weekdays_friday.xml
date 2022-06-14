@@ -20,48 +20,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="70dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="🔼"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="70dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="🔼"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="280dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="528dp"
+        android:layout_marginBottom="584dp"
         android:backgroundTint="@android:color/holo_orange_dark"
         android:text="🔊"
-        android:textSize="34sp"
         android:textColor="@color/white"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="152dp"
-        android:layout_height="55dp"
-        android:backgroundTint="@android:color/holo_purple"
-        android:text="▶"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.185"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        app:layout_constraintVertical_bias="0.938" />
-
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="152dp"
-        android:layout_height="55dp"
-        android:backgroundTint="@android:color/holo_purple"
-        android:text="finish"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.803"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9"
-        app:layout_constraintVertical_bias="0.938" />
 
     <TextView
         android:id="@+id/textView17"
@@ -95,10 +94,9 @@
         android:layout_height="133dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.431"
+        app:layout_constraintVertical_bias="0.376"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
