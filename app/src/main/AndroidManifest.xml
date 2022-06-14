@@ -18,6 +18,9 @@
             android:name=".multiplicationQuestionOne"
             android:exported="false" />
         <activity
+            android:name=".multiplicationQuestionTwo"
+            android:exported="false" />
+        <activity
             android:name=".directionsQuestionTwo"
             android:exported="false" />
         <activity

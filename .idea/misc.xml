@@ -3,27 +3,42 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clock_question_one.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clock_question_three.xml" value="0.33" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clock_question_two.xml" value="0.14709569577935647" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_five.xml" value="0.22" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_four.xml" value="0.25" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_one.xml" value="0.33" />
-        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_seven.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_seven.xml" value="0.5" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_six.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_three.xml" value="0.33" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_clocks_two.xml" value="0.33" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_digit_question_one.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_digit_question_three.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_digit_question_two.xml" value="0.14709569577935647" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_digits.xml" value="0.25" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_directions.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_directions_question_one.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_directions_question_two.xml" value="0.14709569577935647" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_learn.xml" value="0.33" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_login.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_months.xml" value="0.33" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_months_january.xml" value="0.14709569577935647" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_multiplication_one.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_multiplication_question_one.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_multiplication_question_three.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_multiplication_question_two.xml" value="0.14709569577935647" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_multiplication_three.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_multiplication_two.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_play.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_ptofil.xml" value="0.33" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_questions.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_seasons_one.xml" value="0.33" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_seasons_question_one.xml" value="0.22" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_seasons_question_three.xml" value="0.14709569577935647" />
+        <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_seasons_question_two.xml" value="0.14709569577935647" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_seasons_two.xml" value="0.2497733454215775" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_sign.xml" value="0.358695652173913" />
         <entry key="..\:/Users/burak/Desktop/AndroidProject/app/src/main/res/layout/activity_weekdays.xml" value="0.25" />
