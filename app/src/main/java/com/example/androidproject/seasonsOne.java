@@ -29,8 +29,8 @@ private Button seasonOneGo;
         seasonOneGoMenu=findViewById(R.id.button8);
         seasonOneGoBack=findViewById(R.id.button24);
         seasonOneGo=findViewById(R.id.button26);
-        vv.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.winter);
-        vv2.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.fall);
+        vv.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.wintersound);
+        vv2.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.fallsound);
         MediaController med= new MediaController(this);
 
         play1.setOnClickListener(new View.OnClickListener() {

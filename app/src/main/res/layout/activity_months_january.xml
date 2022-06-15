@@ -20,6 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
     <Button
         android:id="@+id/button32"
         android:layout_width="70dp"
@@ -47,21 +48,23 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.836" />
+        app:layout_constraintVertical_bias="0.885" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="280dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="528dp"
+        android:layout_marginTop="75dp"
         android:backgroundTint="@android:color/holo_orange_dark"
         android:text="🔊"
-        android:textSize="34sp"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/button32"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView17"
@@ -88,6 +91,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="346dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/button32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:srcCompat="@drawable/january" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="346dp"
+        android:layout_height="225dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/button33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button32"
+        app:srcCompat="@drawable/february" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
