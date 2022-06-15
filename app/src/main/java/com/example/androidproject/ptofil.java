@@ -24,7 +24,13 @@ public class ptofil extends AppCompatActivity {
     private DatabaseReference reference;
     private String userID;
     private Button profilGoMenu;
-
+    private DatabaseReference r1;
+    private DatabaseReference r2;
+    private DatabaseReference r3;
+    private DatabaseReference r4;
+    private DatabaseReference r5;
+    private DatabaseReference r6;
+    private DatabaseReference r7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +51,14 @@ public class ptofil extends AppCompatActivity {
         userID = user.getUid();
         final TextView fullnameTextView = findViewById(R.id.textView15);
         final TextView emailTextView = findViewById(R.id.textView16);
+        final TextView scoresText = findViewById(R.id.textView21);
+        r1 =FirebaseDatabase.getInstance().getReference("Users").child("scoreClocks");
+        r2 =FirebaseDatabase.getInstance().getReference("Users").child("scoreDigits");
+        r3 =FirebaseDatabase.getInstance().getReference("Users").child("scoreDirections");
+        r4 =FirebaseDatabase.getInstance().getReference("Users").child("scoreMonths");
+        r5 =FirebaseDatabase.getInstance().getReference("Users").child("scoreMultiplication");
+        r6 =FirebaseDatabase.getInstance().getReference("Users").child("scoreSeasons");
+        r7 =FirebaseDatabase.getInstance().getReference("Users").child("scoreWeekdays");
 
         reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -57,6 +71,7 @@ public class ptofil extends AppCompatActivity {
                     fullnameTextView.setText("Fullname: "+fullName);
                     emailTextView.setText("E-Mail: "+email);
 
+
                 }
             }
 
@@ -65,7 +80,6 @@ public class ptofil extends AppCompatActivity {
                 Toast.makeText(ptofil.this, "Something is wrong", Toast.LENGTH_SHORT).show();
             }
         });
-
         profilGoMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
