@@ -26,6 +26,7 @@ public class home extends AppCompatActivity {
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
+    private TextView scores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,8 @@ public class home extends AppCompatActivity {
         profile=findViewById(R.id.button);
         learn = findViewById(R.id.learn);
         play = findViewById(R.id.buttonPlay);
+        scores=findViewById(R.id.textView103);
+
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,14 +68,25 @@ public class home extends AppCompatActivity {
         reference = FirebaseDatabase.getInstance().getReference("Users");
         userID = user.getUid();
         final TextView greetingTextView = findViewById(R.id.textView4);
+
         reference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 User userProfile = snapshot.getValue(User.class);
+                Integer clock=snapshot.child("scoreClocks").getValue(Integer.class);
+                Integer digit=snapshot.child("scoreDigits").getValue(Integer.class);
+                Integer dir=snapshot.child("scoreDirections").getValue(Integer.class);
+                Integer mon=snapshot.child("scoreMonths").getValue(Integer.class);
+                Integer mul=snapshot.child("scoreMultiplication").getValue(Integer.class);
+                Integer sea=snapshot.child("scoreSeasons").getValue(Integer.class);
+                Integer week=snapshot.child("scoreWeekdays").getValue(Integer.class);
+                Integer sum=clock+digit+dir+mon+mul+sea+week;
 
                 if (userProfile != null){
                     String fullName = userProfile.fullname;
                     greetingTextView.setText("Welcome, "+fullName);
+                    scores.setText("Clocks: "+clock+"/30\nDigits: "+digit+"/30\nDirections: "+dir+"/20\nMonths: "+mon+"/20\nMultiplication: "+mul+"/30\nSeasons: "+sea+"/20\nWeekdays: "+week+"/20\nTotal: "+sum+"/170");
+
 
                 }
             }

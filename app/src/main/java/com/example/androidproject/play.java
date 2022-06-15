@@ -88,7 +88,7 @@ public class play extends AppCompatActivity {
                 startActivity(new Intent(play.this,seasonsQuestionOne.class));
             }
         });
-        playSeasons.setOnClickListener(new View.OnClickListener() {
+        myScores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(play.this,ptofil.class));
