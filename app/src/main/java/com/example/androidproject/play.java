@@ -16,6 +16,7 @@ public class play extends AppCompatActivity {
     private Button playDigits;
     private Button playDirections;
     private Button playMultiplication;
+    private Button myScores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class play extends AppCompatActivity {
         playDigits = findViewById(R.id.button20);
         playDirections = findViewById(R.id.button21);
         playMultiplication = findViewById(R.id.button19);
-
+        myScores=findViewById(R.id.btnSignup10);
         logoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,6 +86,12 @@ public class play extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(play.this,seasonsQuestionOne.class));
+            }
+        });
+        playSeasons.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(play.this,ptofil.class));
             }
         });
 

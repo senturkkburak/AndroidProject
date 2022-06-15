@@ -18,7 +18,6 @@ public class welcome extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
         login = findViewById(R.id.button6);
         signup = findViewById(R.id.button7);
-        final Button soundbutton= findViewById(R.id.buttonSound);
 
 
         login.setOnClickListener(new View.OnClickListener() {
@@ -35,13 +34,7 @@ public class welcome extends AppCompatActivity {
                 finish();
             }
         });
-        soundbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final MediaPlayer mediaPlayer = MediaPlayer.create(welcome.this,R.raw.zyzz);
-                mediaPlayer.start();
-            }
-        });
+
 
 
     }

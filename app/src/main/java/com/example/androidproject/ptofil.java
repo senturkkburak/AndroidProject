@@ -64,12 +64,22 @@ public class ptofil extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 User userProfile = snapshot.getValue(User.class);
+                Integer clock=snapshot.child("scoreClocks").getValue(Integer.class);
+                Integer digit=snapshot.child("scoreDigits").getValue(Integer.class);
+                Integer dir=snapshot.child("scoreDirections").getValue(Integer.class);
+                Integer mon=snapshot.child("scoreMonths").getValue(Integer.class);
+                Integer mul=snapshot.child("scoreMultiplication").getValue(Integer.class);
+                Integer sea=snapshot.child("scoreSeasons").getValue(Integer.class);
+                Integer week=snapshot.child("scoreWeekdays").getValue(Integer.class);
+                Integer sum=clock+digit+dir+mon+mul+sea+week;
 
                 if (userProfile != null){
                     String fullName = userProfile.fullname;
                     String email = userProfile.email;
                     fullnameTextView.setText("Fullname: "+fullName);
                     emailTextView.setText("E-Mail: "+email);
+                    scoresText.setText("Clocks: "+clock+"/30\nDigits: "+digit+"/30\nDirections: "+dir+"/20\nMonths: "+mon+"/20\nMultiplication: "+mul+"/30\nSeasons: "+sea+"/20\nWeekdays: "+week+"/20\nTotal: "+sum+"/170");
+
 
 
                 }
@@ -80,6 +90,7 @@ public class ptofil extends AppCompatActivity {
                 Toast.makeText(ptofil.this, "Something is wrong", Toast.LENGTH_SHORT).show();
             }
         });
+
         profilGoMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
